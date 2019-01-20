@@ -1,10 +1,8 @@
 
 # Introduction:
-The Gradient Booting Machine (known as GBM, or sometimes simply Gradient Booting) is an approach of Machine Learning for both regression and classification problems. For more details about this model, please read https://en.wikipedia.org/wiki/Gradient_boosting.
-In this post we will use the data set hmeq.csv from Credit Risk Analytics book: Measurement Techniques, Applications, and Examples in SAS. This is the data set used many times in this book for some classification models.
-Our goal is based on information about customers applying for credit (occupation, loan purpose, loan amount, criminal record...) to build the model, in order to classify records for granting credit to customers.
-With classification problems as just presented, Logistic is often the first thought model. However, the classification quality of this model is not good.
-Using the GBM model, the classification results of the model achieved much higher accuracy than Logistic for the data set hmeq.csv. Specifically, quality classification of GBM model for test data set: (1) Accuracy is 94.43%, (2) the rate of misclassing bad records into good records (this is important) at a low level of 17.65% , (3) AUC = 0.97 (very high level according to the classification criteria for quality classification model./
+- The Gradient Booting Machine (known as GBM, or sometimes simply Gradient Booting) is an approach of Machine Learning for both regression and classification problems. For more details about this model, please read https://en.wikipedia.org/wiki/Gradient_boosting. In this post we will use the data set hmeq.csv from Credit Risk Analytics book: Measurement Techniques, Applications, and Examples in SAS. This is the data set used many times in this book for some classification models. Our goal is based on information about customers applying for credit (occupation, loan purpose, loan amount, criminal record...) to build the model, in order to classify records for granting credit to customers. With classification problems as just presented, Logistic is often the first thought model. However, the classification quality of this model is not good.
+
+- Using the GBM model, the classification results of the model achieved much higher accuracy than Logistic for the data set hmeq.csv. Specifically, quality classification of GBM model for test data set: (1) Accuracy is 94.43%, (2) the rate of misclassing bad records into good records (this is important) at a low level of 17.65% , (3) AUC = 0.97 (very high level according to the classification criteria for quality classification model./
 Let's get started!
 
 # Data Manipulation
